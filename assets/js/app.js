@@ -7,16 +7,19 @@ showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
+  clearInterval(showSlides);
   showSlides(slideIndex += n);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
+  clearInterval(showSlides);
   showSlides(slideIndex = n);
 }
 
 
 function showSlides() {
+  clearInterval(showSlides);
     var i;
     var slides = document.getElementsByClassName("mySlides");
     for (i = 0; i < slides.length; i++) {

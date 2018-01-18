@@ -6,6 +6,7 @@
 /* Slideshow container */
 
 .slideshow-container {
+    padding-top: 20px;
     max-width: 1000px;
     position: relative;
     margin: auto;
@@ -126,4 +127,18 @@
     to {
         opacity: 1
     }
+}
+
+.carousel {
+    padding-top: 20px;
+    margin: auto;
+}
+
+.carousel-inner img {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.carousel-control-prev {
+    max-width: 10px;
 }
